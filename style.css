@@ -1,0 +1,290 @@
+body{
+    background-image: url('./fondo.jpg');
+    background-size: cover;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.up{
+    display: flex;
+    margin-top: 40px;
+}
+
+.circle{
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    transform: translate(30%, 0%);
+    align-items: center;
+    justify-content: center;
+}
+
+.c1{
+    background-color: black;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    transform: translate(70px, 50px);
+}
+
+.c2{
+    background-color: black;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    transform: translate(70px, 110px);
+}
+
+.c3{
+    background-color: black;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    transform: translate(30px, 50px);
+}
+
+.c4{
+    background-color: black;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    transform: translate(110px, 30px);
+}
+
+.poke{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    border: solid 1px black;
+    border-top-right-radius: 50px;
+    
+}
+
+.fondo{
+    background-color: gray;
+    border-radius: 40px;
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.c5{
+    background-color: black;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 80px;
+    margin-right: 20px;
+}
+
+.screen{
+    background-color: aqua;
+    border-radius: 12px;
+    border: solid 4px black;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    transform: translate(35%, -88%);
+}
+
+.info{
+    display: flex;
+}
+
+.pokeball{
+    width: 150px;
+    height: 150px;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.num{
+    background-color: aqua;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.pokeName{
+    background-color: aqua;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.union{
+    display: flex;
+    margin-top: -201px;
+    border: solid 2px black;
+}
+
+.u1{
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    border-right: solid 2px black;
+    margin-left: -3px;
+}
+
+.u2{
+    background-color: red;
+    width: 300px;
+    height: 50px;
+    margin-top: -2px;
+    border-bottom: solid 1px black;
+}
+
+.u3{
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    border-left: solid 2px black;
+    margin-top: -2px;
+}
+
+.down{
+    display: flex;
+    margin-top: 50px;
+}
+
+.circle2{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+.light{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    margin-top: 135px;
+    border-radius: 4px;
+}
+
+.control{
+    background-color: red;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-bottom-right-radius: 50px;
+    margin-left: -100px;
+}
+
+.fondo2{
+    background-color: gray;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: -140px;
+}
+
+.buttons{
+    border: solid 2px black;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.button-up{
+    background-color: black;
+    width: 30px;
+    height: 110px;
+    margin-top: 17px;
+    margin-left: 58px;
+}
+
+.button-down{
+    background-color: black;
+    width: 110px;
+    height: 30px;
+    margin-top: -70px;
+    margin-left: 19px;
+}
+
+.fondo3{
+    display: flex;
+    background-color: gray;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 20px;
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: -1px;
+}
+
+.screen-2{
+    display: flex;
+    background-color: aqua;
+    border-radius: 12px;
+    border: solid 4px black;
+    width: 300px;
+    height: 250px;
+    transform: translate(15%, -10%);
+}
+
+.columna1{
+    display: inline-block;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.tipo{
+    display: flex;
+}
+
+.pokeTipo{
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    width: 80px;
+    height: 30px;
+}
+
+.defensa_especial{
+    display: flex;
+}
+
+.button-1{
+    background-color: black;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 100px;
+    transform: translate(60px, 10px);
+}
+
+.button-2{
+    background-color: black;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 160px;
+    transform: translate(40px, 0px);
+}
+
